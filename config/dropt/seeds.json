@@ -1,0 +1,46 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "biomesoplenty:plant_0:12",
+            "biomesoplenty:plant_0:13",
+            "biomesoplenty:plant_0:14",
+            "biomesoplenty:plant_1:2"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+	  "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 25
+            }
+          },
+          "item": {
+            "items": [
+              "rustic:chili_pepper_seeds",
+              "rustic:grape_stem",
+              "rustic:tomato_seeds",
+              "rustic:apple_seeds",
+              "minecraft:beetroot_seeds",
+              "agricraft:agri_seed:0"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 75
+            }
+          }	
+        }
+      ]
+    }
+  ]
+}
