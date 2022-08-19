@@ -4,6 +4,11 @@
       "match": {
         "blocks": {
           "blocks": [
+            "biomesoplenty:plant_0:0",
+            "biomesoplenty:plant_0:1",
+            "biomesoplenty:plant_0:3",
+            "biomesoplenty:plant_0:9",
+            "biomesoplenty:plant_0:10",
             "biomesoplenty:plant_0:12",
             "biomesoplenty:plant_0:13",
             "biomesoplenty:plant_0:14",
@@ -16,7 +21,7 @@
         {
           "selector": {
             "weight": {
-              "value": 25
+              "value": 20
             }
           },
           "item": {
@@ -36,7 +41,7 @@
         {
           "selector": {
             "weight": {
-              "value": 75
+              "value": 80
             }
           }	
         }
